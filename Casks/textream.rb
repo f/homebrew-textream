@@ -1,6 +1,6 @@
 cask "textream" do
   version "1.1.1"
-  sha256 "e1570e84109497f060e371b295c8ed44e53213386604f287d1f2ebde895e05e6"
+  sha256 "19d209b077c32d36fe5b4233e858a1a8f7ecdc053bc37b37d5f6c6c437ce0780"
 
   url "https://github.com/f/textream/releases/download/v1.1.1/Textream.dmg"
   name "Textream"
