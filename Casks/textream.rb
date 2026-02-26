@@ -1,8 +1,8 @@
 cask "textream" do
-  version "1.4.0"
-  sha256 "f886f6f90c69726703f5c750b6a289cfd9a0a8305b2049875943086c2067504b"
+  version "1.4.1"
+  sha256 "c249defd258e869435dc2884e3f44e80500a6586d25698ca86124643f21fab6c"
 
-  url "https://github.com/f/textream/releases/download/v1.4.0/Textream.dmg"
+  url "https://github.com/f/textream/releases/download/v1.4.1/Textream.dmg"
   name "Textream"
   desc "macOS teleprompter that highlights your script in real-time as you speak"
   homepage "https://github.com/f/textream"
