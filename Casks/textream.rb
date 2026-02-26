@@ -2,10 +2,10 @@ cask "textream" do
   version "1.4.3"
 
   if MacOS.version >= :tahoe
-    sha256 "b98b6d1a378035a37e7e7beba826ea4ed4a25627cb27645f8b00fc588014b5ea"
+    sha256 "c91e371743d5e1f5828f4fb8f0f106a77a66a42f0cf38724fd6bb3abb7e9380c"
     url "https://github.com/f/textream/releases/download/v1.4.3/Textream.dmg"
   else
-    sha256 "8014fc1ad95174aef2eccb47aada0e2eb6fce880c686b920c6f91502ab77c530"
+    sha256 "f9571d04e7be2cb9672854539e756bec1844c4fe785549c4c1b89af6dc51e691"
     url "https://github.com/f/textream/releases/download/v1.4.3/Textream-macos15.dmg"
   end
 
