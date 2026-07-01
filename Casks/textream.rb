@@ -13,7 +13,7 @@ cask "textream" do
   desc "macOS teleprompter that highlights your script in real-time as you speak"
   homepage "https://github.com/f/textream"
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Textream.app"
 
