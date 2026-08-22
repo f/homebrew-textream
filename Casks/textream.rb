@@ -1,19 +1,19 @@
 cask "textream" do
-  version "1.6.5"
+  version "1.7.0"
 
   on_sequoia do
-    sha256 "4e63b32d6925ef375676c466d32734b8af925aeb66683205e2df4bc8342a8604"
+    sha256 "fdab38b38057290fe212b550e87668819bf345bc6fe4d7afcaf5095eb9759a84"
     url "https://github.com/f/textream/releases/download/v#{version}/Textream-macos15.dmg"
   end
 
   on_tahoe :or_newer do
-    sha256 "d007423a1bbd65b95e5ad9b2ffb29fb6a5004a55389991c523875b16edc01570"
+    sha256 "ba88abcfbf27af0956297c6b5a6acae416c1791a9927fd7795df9b1dd9fe064c"
     url "https://github.com/f/textream/releases/download/v#{version}/Textream.dmg"
   end
 
   name "Textream"
   desc "Teleprompter that highlights scripts in real time as you speak"
-  homepage "https://github.com/f/textream"
+  homepage "https://textream.net/"
 
   depends_on macos: :sequoia
 
